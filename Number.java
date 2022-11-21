@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Number {
     public static void main(String[] args) {
         System.out.println("enter your choice");
-        System.out.println("1. largest of three numbers 2.smallest of three numbers 3.prime number 4.even or odd 5.reverse of number");
+        System.out.println("1. largest of three numbers \n 2.smallest of three numbers \n 3.prime number \n 4.even or odd \n 5.reverse of number \n 6.exit");
         Scanner sc=new Scanner(System.in);
        int n=sc.nextInt();
 
@@ -79,7 +79,9 @@ public class Number {
                    a5 = a5/10;
                }
                System.out.println("The reverse of the given number is: " + reverse);
-
+break;
+           case 6:
+               System.exit(0);
        }
 
 
