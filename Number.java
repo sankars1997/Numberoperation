@@ -57,9 +57,23 @@ public class Number {
                    System.out.println(a3 + " is a prime number.");
                else
                    System.out.println(a3 + " is not a prime number.");
+
+           case 4:
+               System.out.println("enter the number you want to check even or odd");
+               int a4= sc.nextInt();
+               if(a4%2 ==0)
+               {
+                   System.out.println(a4+"is even");
+               }
+               else{
+                   System.out.println(a4+"is odd");
+               }
+
        }
 
 
+
        }
+
     }
 
