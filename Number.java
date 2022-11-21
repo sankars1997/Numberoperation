@@ -16,14 +16,31 @@ public class Number {
                int c= sc.nextInt();
                if (a>b && a>c)
                {
-                   System.out.println("a is the largest");
+                   System.out.println(a+" is the largest");
                }
                else if (b>a && b>c) {
-                   System.out.println("b is the largest");
+                   System.out.println(b+" is the largest");
                }
                else {
-                   System.out.println("c is the largest");
+                   System.out.println(c+" is the largest");
                }
+               break;
+           case 2:
+               System.out.println("enter three no");
+               int a1 = sc.nextInt();
+               int b1= sc.nextInt();
+               int c1= sc.nextInt();
+               if (a1<b1 && a1<c1)
+               {
+                   System.out.println(a1+" is the smallest");
+               }
+               else if (b1<a1 && b1<c1) {
+                   System.out.println(b1+" is the smallest");
+               }
+               else {
+                   System.out.println(c1+" is the smallest");
+               }
+               break;
 
        }
     }
