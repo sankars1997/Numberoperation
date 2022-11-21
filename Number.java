@@ -41,7 +41,25 @@ public class Number {
                    System.out.println(c1+" is the smallest");
                }
                break;
+           case 3:
+               System.out.println("enter the number you want to check prime or not");
+               int a3 = sc.nextInt();
+               boolean flag = false;
+               for (int i = 2; i <= a3 / 2; ++i) {
+                   // condition for nonprime number
+                   if (a3 % i == 0) {
+                       flag = true;
+                       break;
+                   }
+               }
+
+               if (!flag)
+                   System.out.println(a3 + " is a prime number.");
+               else
+                   System.out.println(a3 + " is not a prime number.");
+       }
+
 
        }
     }
-}
+
