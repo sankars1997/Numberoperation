@@ -68,12 +68,27 @@ public class Number {
                else{
                    System.out.println(a4+"is odd");
                }
+           case 5:
+               System.out.println("enter the number you want to reverse");
+               int a5= sc.nextInt();
+               int reverse=0;
+               while(a5 != 0)
+               {
+                   int remainder = a5 % 10;
+                   reverse = reverse * 10 + remainder;
+                   a5 = a5/10;
+               }
+               System.out.println("The reverse of the given number is: " + reverse);
 
        }
 
-
-
-       }
 
     }
+
+
+
+       }
+
+
+
 
